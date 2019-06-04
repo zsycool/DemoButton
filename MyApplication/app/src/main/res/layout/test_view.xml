@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--rect button-->
+    <com.example.demo.test.view.DemoButton
+        android:id="@+id/rect"
+        style="@style/RectButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="DemoButton"
+        android:textAppearance="?android:attr/textAppearance"
+        app:animationDuration="500"
+        app:animationPadding="5dp"
+        app:animationTint="@color/colorBlue"
+        app:backgroundNormal="@drawable/background_rect_normal"
+        app:backgroundPressed="@drawable/background_rect_pressed"
+        app:strokeWidth="2dp"
+        app:textColorNormal="@color/textColorNormal"
+        app:textColorPressed="@color/textColorPressed" />
+
+
+</RelativeLayout>
